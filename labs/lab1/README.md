@@ -19,7 +19,7 @@ Connect to the Adaltas cloud cluster using OpenVPN.
    ![Zeppelin login](images/zeppelin-login.png)
 3. In the folder `ece-2021/spark/ref`:
    1. Navigate to the `lab1` notebook
-   2. Create a copy of the notebook (by using the **Clone this note** button) and name it like follow: `ece-2021/spark/username/lab1` (e.g. `ece-2021/spark/petra/lab1`). This should create your folder in `ece-2021/spark`.
+   2. Create a copy of the notebook (by using the **Clone this note** button) and name it like the following: `ece-2021/spark/class-group/username/lab1` (e.g. `ece-2021/spark/ing5-bda-01/petra/lab1`). This should create your folder in `ece-2021/spark/ing5-bda-01`.
    3. In your notebook `lab1` → **🔒 Note permissions**: add the user `petra` to the “Runners” (and any other user you want)
    4. Initialize your interpreter by running the first cell
 

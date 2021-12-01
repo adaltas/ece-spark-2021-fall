@@ -11,7 +11,7 @@ Upload the report to Moodle:
 You will do the project in Zeppelin notebooks on Hadoop.
 
 - Connect to VPN.
-- Open Putty and connect to Adaltas' cluster.
+- Connect to Adaltas' cluster (through Putty or some other tool you are using).
 - Go to the link `http://zep-1.au.adaltas.cloud:9995/`
 - In the folder `ece-2021/spark/project`find your group (`bda-gr01`, `bda-gr02`, `si-gr01`, `si-gr02`).
 - Inside the correct group, create a notebook with your last name.

@@ -2,7 +2,9 @@
 
 Upload the report to Moodle: 
 
-**Apprentis:** 19/12/2021 
+**Apprentis:** 
+- if you submit the project **until 19/12/2021 (included)**, you **don't need to answer the questions 14 and 15**. Those answers will count as bonus points.
+- if you submit the project **between 20/12/2021 and 02/01/2022**, you need to answer **all of the questions**. 
 
 **Others:** 02/01/2022 
 
@@ -19,15 +21,13 @@ You will do the project in Zeppelin notebooks on Hadoop.
 
 ## General instructions
 
-**Important:** Apprentis don't need to answer the questions 14 and 15. Those answers will count as bonus points. 
-
 - The project can be carried out by 1 or 2 students.
 - Each group needs to turn in one report in pdf format and a link to **one** notebook included to the report. The notebook should be clean and readable.
 - If you want to work with your peer in one notebook, add him/her in the `Permissions` to all the levels.
 - If you add the tables to the report, they shouldn't be longer than 10 rows.
 
 
-- Documentation: https://spark.apache.org/docs/2.1.0/api/python/pyspark.sql.html
+- The version of Spark you are using is not the same as it was on Databricks. Use this documentation: https://spark.apache.org/docs/2.1.0/api/python/pyspark.sql.html
 
 ## Questions
  
@@ -51,7 +51,7 @@ You will be exploring NYC Taxi data. They consist of two datasets, Taxi fares an
 
 3. What is the first and the last date (only date, without time)?
 
-4. How many distinct drivers and distinct cars do we have in the dataset?
+4. How many distinct drivers ('driver_id') and distinct cars ('taxi_id') do we have in the dataset?
 
 5. Are there any values that seem to be strange (in any column or as a result of aggregation)? Explain. You can also answer this question at the end of the project.
 
@@ -64,7 +64,7 @@ You will be exploring NYC Taxi data. They consist of two datasets, Taxi fares an
 
 7. Which driver did the most rides? Did he also earned the most tips? 
 
-8. What % of fares represent the tips (on average)? We will consider that the tip is not included in the fares_total and you can compare them directly.
+8. On average, what % of fares (total_fare) represent the tips (tip)? We will consider that the tip is not included in the fares_total and you can compare them directly.
 
 9. Do taxi drivers always drive the same car?
 
@@ -89,9 +89,9 @@ You will be exploring NYC Taxi data. They consist of two datasets, Taxi fares an
 
 12. Join it with the Taxi Fares: inner join on the columns 'ride_id', 'start_time', 'taxi_id', 'driver_id'.
 
-13. Keep only the lines where is_start = "END".
+13. Keep only the lines where is_start == "END".
 
-14. Calculate the longest and the shortest path. Write the formula you used in the report.
+14. Calculate the longest and the shortest path from given longitudes and latitudes (in degrees). Write the formula you used in the report.
 
 15. Calculate the longest and the shortest time.
 

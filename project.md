@@ -3,10 +3,9 @@
 Upload the report to Moodle: 
 
 **Apprentis:** 
-- if you submit the project **until 19/12/2021 (included)**, you **don't need to answer the questions 14 and 15**. Those answers will count as bonus points.
-- if you submit the project **between 20/12/2021 and 02/01/2022**, you need to answer **all of the questions**. 
+- 02/01/2022: but you **don't need to answer the questions 14 and 15**. Those answers will count as bonus points.
 
-**Others:** 02/01/2022 
+**Others:** 02/01/2022 (with no reduced workload)
 
 ## Environment
 
